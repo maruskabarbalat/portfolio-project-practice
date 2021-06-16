@@ -84,6 +84,26 @@
     font-size: 28px;
     text-decoration: none;
   }
+
+  .project {
+    font-size: 18px;
+    background: white;
+    text-align: left;
+  }
+  
+  .btn-project {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 20px;
+    box-shadow: var(--box-shadow);
+  }
+  .btn-project:hover {
+    color: white;
+  }
   
   .email-link:hover {
     text-decoration: underline;
